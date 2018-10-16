@@ -2,13 +2,22 @@
 <html>
 <head>
 	<title>NITRUtsav Sign-up</title>
+	<link rel="stylesheet" type="text/css" href="signup.css">
+	<style>
+		.error{
+			color: red;
+		}
+		.container{
+			align-content: center;
+		}
+	</style>
 </head>
 <body>
 	
 	<?php include('process.php'); ?>
 	
 	<h1>REGISTER HERE:</h1>
-	<form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" >
+	<form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>">
 		<fieldset>
 		<legend><strong>SIGN UP:</strong></legend>
 		<table>
