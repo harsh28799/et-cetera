@@ -1,0 +1,16 @@
+1.This folder contains both the front end and back end tasks.
+2."home.html" is the front end task with a menu.
+	This page is responsive with the help of built in w3-css file.
+3.The menu contains the options for Sign in and sign up.
+4.The sign up will redirect to "signup.php" page.
+5.The sign in will redirect to "signin.php" page.
+6.The two pages are on localhost and will require a local server to run successfully.
+7.The sign up page will verify
+	The uniqueness of the email.
+	The password requirements.
+	Validity of phone number.
+8.After successful registration it will redirect to the home page.
+9.The sign in page will verify
+	If the email is already registered.
+	And the password and email are in a valid combination.
+8.After successful login it will redirect to the home page.

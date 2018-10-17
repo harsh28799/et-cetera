@@ -20,7 +20,7 @@
 	<form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>">
 		<fieldset>
 		<legend><strong>SIGN UP:</strong></legend>
-		<table  class="container">
+		<table>
 			<tr>
 				<td>Name:</td>
 				<td><input type="text" name="name" value="<?php echo $name ?>" ></td>
